@@ -144,4 +144,16 @@ li{
   line-height: 2;
   font-size: 22px;
 }
+ul{
+  line-height: 2;
+  font-size: 22px;
+  text-align: center;
+}
+.EXPERIENCES{
+  margin: 0 20%;
+  text-align: left;
+}
 
+.ex{
+  margin: 100px auto 0 auto;
+}
