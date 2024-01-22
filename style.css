@@ -1,94 +1,93 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  #hero {
-    background-color: #e0ebe8;
-    text-align: center;
-    padding: 10%;
-    padding-bottom: 0;
-    height: 100%;
-  }
-  .pro {
-    text-decoration: underline;
+  margin: 0;
+  padding: 0;
 }
-.web-link{
-    font-size: 20px;
-}
-  
 
-  #hero h2 {
-    color: #66bfbf;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2.5rem;
-    font-weight: normal;
-    padding-bottom: 10px;
-  }
-  
+#hero {
+  background-color: #e0ebe8;
+  text-align: center;
+  padding: 10%;
+  padding-bottom: 0;
+  height: 100%;
+}
+.pro {
+  text-decoration: underline;
+}
+.web-link {
+  font-size: 20px;
+}
+
+#hero h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.land {
+  margin-top: 13.6%;
+  width: 80%;
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 4.5rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+@media screen and (max-width: 929px) {
   .land {
-    margin-top: 13.6%;
-    width: 80%;
+    position: relative;
+    width: 100%;
+    bottom: -15px;
   }
 
-  h1{
-    color: #66bfbf;
-    font-size: 4.5rem;
-    margin: 50px auto 0 auto;
-    font-family: "Sacramento", cursive;
-    display: block;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  #hero {
+    padding: 10% 1% 1%;
   }
-  @media screen and (max-width: 929px) {
-    .land {
-      position: relative;
-      width: 100%;
-      bottom: -15px;
-    }
-  
-    #hero {
-      padding: 10% 1% 1%;
-    }
-    }
+}
 
 .middle-container {
-    margin: 100px 0;
+  margin: 100px 0;
 }
 
 .profile {
-    margin-bottom: 1.5rem;
-  }
+  margin-bottom: 1.5rem;
+}
 
-body{
+body {
   color: #40514e;
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
 }
 
-.myphoto{
-    height: 200px;
-    border-radius: 50%;
-  }
-
-h2{
-    color: #66bfbf;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2.5rem;
-    font-weight: normal;
-    padding-bottom: 10px;
-  }
-
-h3{
-    color: #11999e;
-    font-size: 1.8em;
-    font-weight: bold;
+.myphoto {
+  height: 200px;
+  border-radius: 50%;
 }
 
-.btn{
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999e;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.btn {
   background-color: #11cdd4;
   border-radius: 8px;
   font-family: "Montserrat", sans-serif;
@@ -108,56 +107,154 @@ h3{
   row-gap: 2rem;
 }
 
-.skill-img{
+.skill-img {
   width: 50%;
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
-.contact-message{
+.contact-message {
   width: 40%;
   margin: 40px auto 60px;
-  }
+  font-size: 23px;
+}
 
-.intro{
-    width: 80%;
-    margin: auto;
-    text-align:left;
-  }
+.intro {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
 
-#intro-div{
+#intro-div {
   margin: auto;
   width: 80%;
 }
 
 hr {
-    border: dotted #96e7ff 9px;
-    border-bottom: none;
-    width: 6%;
-    margin: 80px auto;
+  border: dotted #96e7ff 9px;
+  border-bottom: none;
+  width: 6%;
+  margin: 80px auto;
 }
-.bottom-container{
+.bottom-container {
   background-color: #66bfbf;
   padding: 50px 0 20px;
 }
 
-li{
+li {
   line-height: 2;
   font-size: 22px;
 }
-ul{
+ul {
   line-height: 2;
   font-size: 22px;
   text-align: center;
 }
-.EXPERIENCES{
+.EXPERIENCES {
   margin: 0 20%;
   text-align: left;
+  list-style: disc;
 }
 
-.ex{
+.ex {
   margin: 100px auto 0 auto;
 }
 
-.ex{
-  margin: 100px auto 0 auto;
+.skills-container {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills-header {
+  font-size: 2em;
+  margin-bottom: 20px;
+  margin-bottom: 1em;
+}
+
+.skills-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.skill-category {
+  flex-basis: 45%;
+  margin-bottom: 30px;
+}
+
+.skill-title {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-item {
+  background: #eee;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .skill-category {
+    flex-basis: 100%;
+  }
+}
+.fancy-button {
+  padding: 5px 15px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #11cdd4;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(17, 205, 212, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  outline: none;
+}
+
+.fancy-button:hover {
+  background-color: #0fa0b2;
+  box-shadow: 0 6px 12px rgba(17, 205, 212, 0.5);
+}
+
+.fancy-button:active {
+  background-color: #0e8a9a;
+  box-shadow: 0 2px 4px rgba(17, 205, 212, 0.5);
+}
+
+.todolist-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.todolist-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.ex-header h3 {
+  margin: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.ex-header h4 {
+  margin-bottom: 20px;
+  color: #0fa0b2;
+}
+
+.internship-date {
+  margin-left: 20px;
 }
