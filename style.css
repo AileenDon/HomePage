@@ -1,26 +1,38 @@
 * {
-  margin: 0;
   padding: 0;
 }
 
 #hero {
-  background-color: #e0ebe8;
+  background-color: #e0ebe8; 
   text-align: center;
-  padding: 10%;
-  padding-bottom: 0;
-  height: 100%;
+  padding: 5% 10%; 
+  height: auto; 
 }
+
+h2 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /
+}
+
 .pro {
-  text-decoration: underline;
+  font-weight: bold; 
+  color: #66bfbf; 
+  border-radius: 5px; 
+  box-decoration-break: clone; 
+  -webkit-box-decoration-break: clone; 
 }
-.web-link {
-  font-size: 20px;
+
+
+.intro {
+  width: 90%; 
+  margin: auto; 
+  padding: 20px 0; 
+  text-align: justify; 
 }
 
 #hero h2 {
   color: #66bfbf;
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: normal;
   padding-bottom: 10px;
 }
@@ -69,22 +81,32 @@ body {
 }
 
 .myphoto {
-  height: 200px;
+  height: 300px;
+  width: auto;
   border-radius: 50%;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  border: 5px solid #daffff;
 }
+
 
 h2 {
   color: #66bfbf;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
-  padding-bottom: 10px;
+  padding-bottom: 1px;
 }
 
 h3 {
   color: #11999e;
   font-size: 1.8em;
   font-weight: bold;
+}
+.company-logo {
+  display: block;
+  max-width: 150px;
+  height: auto;
+  margin: 10px auto;
 }
 
 .btn {
@@ -119,7 +141,7 @@ h3 {
 }
 
 .intro {
-  width: 80%;
+  width: 90%;
   margin: auto;
   text-align: left;
 }
@@ -201,11 +223,25 @@ ul {
   border-radius: 5px;
 }
 
+.footer-link {
+  font-family: 'Montserrat', sans-serif; /* Keep the font consistent and professional */
+  font-size: 1rem; /* Optimal readability */
+  color: #e8fbf7; /* White text stands out against the footer background */
+  text-decoration: none; /* No underline for a cleaner look */
+  padding: 5px 10px; /* Minimal padding for touch friendliness */
+  transition: opacity 0.3s ease; /* Smooth transition for a subtle hover effect */
+}
+
 @media (max-width: 768px) {
   .skill-category {
     flex-basis: 100%;
   }
+  .company-logo .myphoto {
+    max-width: 80px;
+    margin: 5px auto;
+  }
 }
+
 .fancy-button {
   padding: 5px 15px;
   font-size: 18px;
@@ -257,4 +293,49 @@ ul {
 
 .internship-date {
   margin-left: 20px;
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .myphoto {
+    height: 200px;
+  }
+  .myskills, #hero h2 {
+    font-size: 2rem;
+  }
+  .intro, .land, #intro-div {
+    width: 80%; 
+  }
+
+  #mid h3, #mid h4{
+    font-size: 1.5rem;
+  }
+  
+  #mid h4{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .myphoto {
+    height: 150px;
+  }
+  .myskills, #hero h2 {
+    font-size: 1.5rem;
+  }
+  #hero {
+    padding: 10% 5%;
+  }
+
+  #hero h1 {
+    font-size: 3rem;
+  }
+  .intro, .land, #intro-div {
+    width: 80%;
+  }
+  #mid h3, #mid h4{
+    font-size: 1.3rem;
+  }
+  .EXPERIENCES {
+    font-size: 1.3rem;
+  }
 }
