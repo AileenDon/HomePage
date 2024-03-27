@@ -224,12 +224,12 @@ ul {
 }
 
 .footer-link {
-  font-family: 'Montserrat', sans-serif; /* Keep the font consistent and professional */
-  font-size: 1rem; /* Optimal readability */
-  color: #e8fbf7; /* White text stands out against the footer background */
-  text-decoration: none; /* No underline for a cleaner look */
-  padding: 5px 10px; /* Minimal padding for touch friendliness */
-  transition: opacity 0.3s ease; /* Smooth transition for a subtle hover effect */
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 1rem; 
+  color: #e8fbf7; 
+  text-decoration: none; 
+  padding: 5px 10px; 
+  transition: opacity 0.3s ease; 
 }
 
 @media (max-width: 768px) {
